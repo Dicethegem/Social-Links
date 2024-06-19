@@ -1,0 +1,94 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 70px;
+    /* height: 100px; */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 30px;
+    /* left: 100px; */
+    margin-left: 85px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.profile {
+    width: 250px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    padding: 25px;
+    top: 50px;
+    background-color: #1f1f1f;
+}
+
+.profile h1 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    bottom: 20px;
+    position: relative;
+}
+
+.profile p {
+    color: yellow;
+    font-size: 12px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: -22px;
+}
+
+.profile span {
+    /* text-align: center !important; */
+    color: white;
+    font-size: 10px;
+    margin-bottom: 20px;
+    left: 65px;
+    bottom: 50px;
+    top: 100px !important;
+    text-align-last: center;
+    margin-top: 94px;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+.profile .btn {
+    position: inherit;
+    width: 240px;
+    bottom: 15px;
+    justify-content: center !important;
+    flex-wrap: wrap;
+    height: 40px;
+    background: gey;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    background-color: #333333;
+}
+
+.profile .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile .btn:hover {
+    background-color: yellow;
+}
